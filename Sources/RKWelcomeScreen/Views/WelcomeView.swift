@@ -19,7 +19,7 @@ struct WelcomeView: View {
                 Group {
                     Spacer().frame(height: topInset)
                     TitleView(title: model.title, color: Color(model.appearance.titleColor))
-                    Spacer().frame(height: 58)
+                    Spacer().frame(height: 56)
 
                     ItemsContainerView(model: model)
                 }.padding(horizontalInsets)
